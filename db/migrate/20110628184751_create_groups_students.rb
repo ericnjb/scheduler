@@ -1,6 +1,6 @@
 class CreateGroupsStudents < ActiveRecord::Migration
   def self.up
-    create_table :groups_students do |t|
+    create_table :groups_students, :id => false do |t|
       t.integer :group_id
       t.integer :student_id
 

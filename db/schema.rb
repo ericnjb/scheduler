@@ -19,17 +19,9 @@ ActiveRecord::Schema.define(:version => 20110628185016) do
     t.datetime "updated_at"
   end
 
-  create_table "groups_students", :force => true do |t|
+  create_table "groups_students", :id => false, :force => true do |t|
     t.integer  "group_id"
     t.integer  "student_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "staffs", :force => true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "gender"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
