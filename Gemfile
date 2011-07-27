@@ -25,6 +25,8 @@ gem 'sqlite3'
 
 gem 'will_paginate', '>= 3.0.pre'
 gem 'gga4r'
+gem 'haml', '~> 3.0.18'
+gem 'jquery-rails', '~> 0.2.2'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
